@@ -1,7 +1,7 @@
 import DownloadIcon from '@mui/icons-material/Download';
 import React from 'react'
 import styled from 'styled-components'
-import myImage from '../Resources/Images/profilePic.jpg'
+// import myImage from '../Resources/Images/profilePic.jpg'
 import backgroundImage from '../Resources/Images/backgroundHome.jpg';
 
 // import Resume from '../Resources/Files/Mohit_Sharma_Resume.pdf';

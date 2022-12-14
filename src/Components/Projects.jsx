@@ -6,7 +6,7 @@ import FitnessBlender from '../Resources/Images/Project/fitnessBlender.jpeg';
 // import ZARA from '../Resources/Images/Project/zara.jpg';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import StreamIcon from '@mui/icons-material/Stream';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 const Projects = () => {
     // const [state, setState] = useState('')
