@@ -2,14 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 import kfc from '../Resources/Images/Project/kfc.jpeg';
 import FitnessBlender from '../Resources/Images/Project/fitnessBlender.jpeg';
-import ESPN from '../Resources/Images/Project/ESPN.jpeg';
-import ZARA from '../Resources/Images/Project/zara.jpg';
+// import ESPN from '../Resources/Images/Project/ESPN.jpeg';
+// import ZARA from '../Resources/Images/Project/zara.jpg';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import StreamIcon from '@mui/icons-material/Stream';
 import { useState } from 'react';
 
 const Projects = () => {
-    const [state, setState] = useState('')
+    // const [state, setState] = useState('')
     const projects = [
         // {
         //     id: 4,

@@ -3,7 +3,7 @@ import React from 'react'
 import styled from 'styled-components'
 import myImage from '../Resources/Images/profilePic.jpg'
 import backgroundImage from '../Resources/Images/backgroundHome.jpg';
-import signature from '../Resources/Images/signature.png';
+
 // import Resume from '../Resources/Files/Mohit_Sharma_Resume.pdf';
 // import { saveAs } from 'file-saver';
 const About = () => {
@@ -27,7 +27,7 @@ const About = () => {
                     </div>
                     <div className='about_rightBox'>
                         <div>
-                            <img src={myImage} alt="" width='100%' />
+                            <img src="me.jpg"alt="" width='100%' />
                         </div>
                     </div>
                 </div>

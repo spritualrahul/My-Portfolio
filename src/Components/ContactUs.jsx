@@ -7,55 +7,55 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const ContactUs = () => {
-    const [submit, setSubmit] = useState(false)
-    const [data, setData] = useState({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
-    });
+    // const [submit, setSubmit] = useState(false)
+    // const [data, setData] = useState({
+    //     name: '',
+    //     email: '',
+    //     subject: '',
+    //     message: ''
+    // });
 
 
-    const handleSubmission = (e) => {
-        e.preventDefault();
-        if (data.name && data.email && data.subject && data.message) {
-            emailjs.send('service_po6idda', 'template_g5erg0q', data, 'Ob6YgTaYqeObolMjc')
-                .then((response) => {
-                    setSubmit(true)
-                }).catch((error) => {
-                    setSubmit(false)
-                    setData({
-                        ...data,
-                        name: '',
-                        email: '',
-                        subject: '',
-                        message: ''
-                    })
-                });
-        }
-    };
+    // const handleSubmission = (e) => {
+    //     e.preventDefault();
+    //     if (data.name && data.email && data.subject && data.message) {
+    //         emailjs.send('service_po6idda', 'template_g5erg0q', data, 'Ob6YgTaYqeObolMjc')
+    //             .then((response) => {
+    //                 setSubmit(true)
+    //             }).catch((error) => {
+    //                 setSubmit(false)
+    //                 setData({
+    //                     ...data,
+    //                     name: '',
+    //                     email: '',
+    //                     subject: '',
+    //                     message: ''
+    //                 })
+    //             });
+    //     }
+    // };
 
-    useEffect(() => {
-        let id = setInterval(() => {
-            setSubmit(false);
+    // useEffect(() => {
+    //     let id = setInterval(() => {
+    //         setSubmit(false);
 
-        }, 5000)
+    //     }, 5000)
 
-        if (!submit) {
-            setData({
-                ...data,
-                name: '',
-                email: '',
-                subject: '',
-                message: ''
-            })
-        };
+    //     if (!submit) {
+    //         setData({
+    //             ...data,
+    //             name: '',
+    //             email: '',
+    //             subject: '',
+    //             message: ''
+    //         })
+    //     };
 
-        return () => {
-            clearInterval(id)
-        }
+    //     return () => {
+    //         clearInterval(id)
+    //     }
 
-    }, [submit]);
+    // }, [submit]);
 
     return (
         <Container id='contact'>
@@ -97,7 +97,7 @@ const ContactUs = () => {
                         </div>
                     </div>
                 </div>
-                {submit && <>
+                {/* {submit && <>
                     <div className='emailSent'>
                         <h1 style={{ color: '#01a479' }}>Email Sent Successfully.</h1>
                         <p>Thank you <span style={{ fontWeight: 'bold' }}>{data.name}</span>, your message has been submitted to us.</p>
@@ -117,7 +117,7 @@ const ContactUs = () => {
                             </div>
                         </div>
                     </form>
-                </div>
+                </div> */}
 
             </div>
             <div className='endSection'>
