@@ -24,7 +24,7 @@ const Projects = () => {
         {
             id: 1,
             title: 'Nykaa Clone',
-            img: kfc,
+            img: "nykaaa.png",
             desc: 'Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and headquartered in Mumbai. It sells beauty, wellness and fashion products across websites.',
             worked: 'A collaborative project, built in 5 days by a team of 5 developers.',
             keyPoint2: 'Our food is always craveable. We are the original fried chicken experts, and everything we do celebrates our passion for serving finger lickin good food.',
@@ -36,7 +36,7 @@ const Projects = () => {
         {
             id: 2,
             title: 'Netflix Clone',
-            img: FitnessBlender,
+            img: "netflixxx.png",
             desc: 'Netflix, Inc. is an American subscription video on-demand over-the-top streaming service and production company based in Los Gatos, California.',
             worked: 'A collaborative project, built in 4 days by a team of 5 developers.',
             keyPoint1: 'Exercise with certified personal trainers whether you’re at home or on the road.',
@@ -48,7 +48,7 @@ const Projects = () => {
         {
             id: 3,
             title: 'Alibaba Clone',
-            img: FitnessBlender,
+            img: "Alibaba.png",
             desc: 'Alibaba Group Holding Limited, also known as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology.',
             worked: 'A collaborative project, built in 4 days by a team of 4 developers.',
             keyPoint1: 'Exercise with certified personal trainers whether you’re at home or on the road.',
