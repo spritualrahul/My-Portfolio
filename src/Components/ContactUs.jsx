@@ -69,28 +69,28 @@ const ContactUs = () => {
                             <LinkedInIcon fontSize="large" />
                             <h1>LinkedIn</h1>
                             <p>You can contact me on LinkedIn</p>
-                            <a href="https://www.linkedin.com/in/aditi-kashyap-453331231/" rel="noreferrer" target="_blank">
-                                <p>Aditi kashyap</p>
+                            <a href="https://www.linkedin.com/in/rahul-mahato-9a1660230/" rel="noreferrer" target="_blank">
+                                <p>Rahul Mahato</p>
                             </a>
                         </div>
                         <div>
                             <PhoneIcon fontSize="large" />
                             <h1>Phone</h1>
                             <p>Here is My Phone Number</p>
-                            <a href="tel:+918802962712" rel="noreferrer" target="_blank">
-                                <p>+918802962712</p>
+                            <a href="tel:+918969156933" rel="noreferrer" target="_blank">
+                                <p>+918969156933</p>
                             </a>
                         </div>
                         <div>
                             <EmailIcon fontSize="large" />
                             <h1>Email</h1>
                             <p>You can Simply mail me just by clicking on my email</p>
-                            <a href='mailto:aditikashyapofficial11@gmail.com' rel="noreferrer" target="_blank"><p>aditikashyapofficial11@gmail.com</p></a>
+                            <a href='mailto:rahulkrmahato027@gmail.com' rel="noreferrer" target="_blank"><p>rahulkrmahato027@gmail.com</p></a>
                         </div>
                         <div>
                             <LocationOnIcon fontSize="large" />
                             <h1>Location</h1>
-                            <p>Ghaziabad,Uttar Pradesh</p>
+                            <p>Jamshedpur,Jharkhand</p>
                             <a href="https://www.google.com/maps/search/ghaziabad+uttar+pradesh+link/@28.6276442,77.4256113,13.58z" rel="noreferrer" target="_blank">
                                 <p>View on Google map</p>
                             </a>
@@ -121,7 +121,7 @@ const ContactUs = () => {
 
             </div>
             <div className='endSection'>
-                <p>© 2022 Aditi Kashyap. Design by Me with <FavoriteIcon sx={{ color: '#01a479' }} /></p>
+                <p>© 2023 Rahul Kumar Mahato. Design by Me with <FavoriteIcon sx={{ color: '#01a479' }} /></p>
             </div>
         </Container>
     )

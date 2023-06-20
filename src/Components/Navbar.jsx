@@ -30,7 +30,7 @@ const Navbar = () => {
     return (
         <Container>
             <header className="header" style={{ backgroundColor: `${colorChange ? 'white' : 'transparent'}` }}>
-                <a href="/" className="logo">Aditi</a>
+                <a href="/" className="logo">Rahul</a>
                 <input className="menu-btn" type="checkbox" id="menu-btn" />
                 <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                 <ul className="menu">
@@ -39,7 +39,7 @@ const Navbar = () => {
                     <li><Link activeClass="active" to="skills" onClick={() => setHead(true)} spy={true} smooth={true}>Skills</Link></li>
                     <li><Link activeClass="active" to="projects" onClick={() => setHead(true)} spy={true} smooth={true}>Projects</Link></li>
                     <li><Link activeClass="active" to="contact" onClick={() => setHead(true)} spy={true} smooth={true}>Contact</Link></li>
-                    <li><div className='resumeBox'><a className='resume' href="https://drive.google.com/file/d/1Tr4JaRtllSROzZWTEwdR4aAUXlfb5CLR/view?usp=share_link" target='_blank' rel='noreferrer'>
+                    <li><div className='resumeBox'><a className='resume' href="https://drive.google.com/file/d/19tKsygl1om7IZWt5lOko4nEVAhu8Y_y_/view?usp=share_link" target='_blank' rel='noreferrer'>
                         Resume<DownloadIcon />
                     </a></div></li>
                 </ul>

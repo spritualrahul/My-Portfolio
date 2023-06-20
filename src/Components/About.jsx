@@ -18,9 +18,9 @@ const About = () => {
             <Container>
                 <div className='aboutBox'>
                     <div className='about_leftBox'>
-                        <h1>Hi, I'm Aditi Kashyap.</h1>
+                        <h1>Hi, I'm Rahul Kumar Mahato.</h1>
                         <p>I am Full Stack Web Developer and i have knowledge in HTML, CSS, JS, REACT and i make user-friendly websites.</p>
-                        <a href="https://drive.google.com/uc?export=download&id=1Tr4JaRtllSROzZWTEwdR4aAUXlfb5CLR">
+                        <a href="https://drive.google.com/file/d/19tKsygl1om7IZWt5lOko4nEVAhu8Y_y_/view?usp=share_link">
                             <button>Download CV<DownloadIcon /></button>
                         </a>
 
@@ -37,13 +37,13 @@ const About = () => {
                     <div className='left'>
                         <h3>Personal Details</h3>
                         <p></p>
-                        <p>Email: <span>aditikashyapofficial11@gmail.com</span></p>
+                        <p>Email: <span>rahulkrmahato027@gmail.com</span></p>
                         <p>Language: <span>English</span></p>
                         <p>Nationality: <span>Indian</span></p>
                     </div>
                     <div className='right'>
                         <h2>I am <span>Full Stack Web Developer</span></h2>
-                        <p>My name is Aditi Kashyap, I am from Ghaziabad, Uttar pradesh. Passionate Full Stack Web Developer
+                        <p>My name is Rahul Kr.Mahato, I am from Jamshedpur, Jharkhand. Passionate Full Stack Web Developer
                             with skills in the MERN stack, I have
                             learned Full Stack Web Development
                             in Masai school. Skilled in problem-

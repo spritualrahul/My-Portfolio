@@ -23,38 +23,38 @@ const Projects = () => {
         // },
         {
             id: 1,
-            title: 'Nykaa Clone',
-            img: "nykaaa.png",
-            desc: 'Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and headquartered in Mumbai. It sells beauty, wellness and fashion products across websites.',
+            title: 'Myntra Clone',
+            img: "myntra.png",
+            desc: 'Being India s largest e-commerce store for fashion and lifestyle products, Myntra aims at providing a hassle free and enjoyable shopping experience to shoppers across the country with the widest range of brands and products on its portal.',
             worked: 'A collaborative project, built in 5 days by a team of 5 developers.',
             keyPoint2: 'Our food is always craveable. We are the original fried chicken experts, and everything we do celebrates our passion for serving finger lickin good food.',
             keyPoint1: 'KFC stores are located in more than 105 countries and were first opened in 1930.',
-            githubLink: 'https://github.com/Raghvendra2811/Nykaa-Web-Clone',
-            deployedLink: 'http://dreamy-gumdrop-ca3b70.netlify.app',
+            githubLink: 'https://github.com/PrabhatAcharya/Myntra',
+            deployedLink: 'https://myntra-clone-project-masai.netlify.app',
             tags: ['HTML', 'CSS', 'Javascript']
         },
         {
             id: 2,
-            title: 'Netflix Clone',
-            img: "netflixxx.png",
-            desc: 'Netflix, Inc. is an American subscription video on-demand over-the-top streaming service and production company based in Los Gatos, California.',
+            title: 'Big Basket Clone',
+            img: "Bigbasket.png",
+            desc: 'BigBasket is a large online grocer headquartered in Bangalore, India, and currently owned by Tata Group. Its registered company name is Supermarket Grocery Supplies Pvt. As of January 2023, the company operates in more than 30 cities in India and processes around 15 million orders per month.',
             worked: 'A collaborative project, built in 4 days by a team of 5 developers.',
             keyPoint1: 'Exercise with certified personal trainers whether you’re at home or on the road.',
             keyPoint2: 'Professionally designed programs take the guesswork out of exercising.',
-            githubLink: 'https://github.com/Dheeraj-Bhandari/NetFlix-Full-Clone',
-            deployedLink: 'ultimatenetflixclone.netlify.app/',
+            githubLink: 'https://github.com/spritualrahul/Big_Basket_clone',
+            deployedLink: 'https://big-basket-cloned-deployed.netlify.app/',
             tags: ['HTML', 'CSS', 'Javascript']
         },
         {
             id: 3,
-            title: 'Alibaba Clone',
-            img: "Alibaba.png",
-            desc: 'Alibaba Group Holding Limited, also known as Alibaba, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology.',
+            title: 'Jio Mart Clone',
+            img: "jiomart.png",
+            desc: 'JioMart is a versatile online shopping platform with an extensive selection of products across multiple categories, including groceries, fashion and lifestyle, consumer electronics, home and kitchen goods, general merchandise, and handloom and handicrafts.',
             worked: 'A collaborative project, built in 4 days by a team of 4 developers.',
             keyPoint1: 'Exercise with certified personal trainers whether you’re at home or on the road.',
             keyPoint2: 'Professionally designed programs take the guesswork out of exercising.',
-            githubLink: 'https://github.com/shantanubose01/Alibaba-Clone',
-            deployedLink: 'https://heroic-sunflower-9ffcb4.netlify.app/',
+            githubLink: 'https://github.com/anuj-midha247/JIO_MART_CLONE',
+            deployedLink: 'https://jio-mart-clone-project.netlify.app/',
             tags: ['HTML', 'CSS', 'Javascript']
         }
         // {
@@ -90,8 +90,8 @@ const Projects = () => {
                                 ))}
                             </div>
                             <div className='linkSection'>
-                                <a href={ele.githubLink}><button><GitHubIcon />Github</button></a>
-                                <a href={ele.deployedLink}><button><StreamIcon />Live</button></a>
+                                <a href={ele.githubLink}target="_blank" rel="noopener noreferrer"><button><GitHubIcon />Github</button></a>
+                                <a href={ele.deployedLink}target="_blank" rel="noopener noreferrer"><button><StreamIcon />Live</button></a>
                             </div>
                         </div>
                     </div>
